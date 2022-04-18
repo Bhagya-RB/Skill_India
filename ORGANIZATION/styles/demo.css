@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+.card {
+    width: 350px;
+    height: 470px;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.card .info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1dede;
+    background-color: #e5e5e5
+}
+
+.card .info button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #000;
+    cursor: pointer;
+    text-transform: uppercase
+}
+
+.card .forms {
+    padding: 15px
+}
+
+.card .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px
+}
+
+.card .inputs span {
+    font-size: 12px
+}
+
+.card .inputs input {
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 17px;
+    box-shadow: none;
+    outline: none
+}
+
+.card .inputs input[type="text"][readonly] {
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+
+
+body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+body {
+    background: #BA68C8
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: #BA68C8;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+body {
+    background-color: #B3E5FC
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold
+}
+
+.square {
+    background-color: #fedcdd;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.email {
+    font-size: 14px;
+    margin-left: 25px;
+    font-weight: bold
+}
+
+.dummytext {
+    font-size: 12px;
+    font-weight: normal;
+    color: #848590
+}
+
+.icons i {
+    color: #FA222A;
+    margin-left: 25px
+}
+
+.icons span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square1 {
+    background-color: #cfe3fe;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons1 i {
+    color: #497eea;
+    margin-left: 25px
+}
+
+.icons1 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square2 {
+    background-color: #ffefc5;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons2 i {
+    color: #ffc227;
+    margin-left: 25px
+}
+
+.icons2 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square5 {
+    background-color: #41cfff;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons5 i {
+    color: #41cfff;
+    margin-left: 25px
+}
+
+.icons5 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square4 {
+    background-color: #eae6fd;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons4 i {
+    color: #6a35ff;
+    margin-left: 25px
+}
+
+.icons4 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square3 {
+    background-color: #fedfce;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons3 i {
+    color: #ff8339;
+    margin-left: 25px
+}
+
+.icons3 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
